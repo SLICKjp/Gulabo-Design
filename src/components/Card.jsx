@@ -1,21 +1,27 @@
+import React from "react";
+import img1 from "../assets/cards/card 1.png";
+import img2 from "../assets/cards/card 2.png";
+import img3 from "../assets/cards/card 3.png";
 
-
-export default function Card() {
-  const cards = ["Card 1", "Card 2", "Card 3"];
-
+const Card = () => {
   return (
-    <div className="relative min-h-[200vh] flex flex-col items-center">
-      <div className="sticky top-20 flex flex-col gap-6">
-        {cards.map((card, i) => (
-          <div
-            key={i}
-            className="w-[80vw] h-40 bg-blue-500 text-white flex items-center justify-center rounded-xl shadow-lg"
-            style={{ top: `${i * 100}px`, position: "sticky" }}
-          >
-            {card}
-          </div>
-        ))}
+    <div>
+     
+      <div className="card-container">
+        <div className="card">
+          <img src={img1} alt="" />
+        </div>
+        <div className="card">
+          <img src={img2} alt="" />
+        </div>
+        <div className="card">
+          <img src={img3} alt="" />
+        </div>
       </div>
+
+     
     </div>
   );
-}
+};
+
+export default Card;

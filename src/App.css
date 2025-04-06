@@ -1,5 +1,122 @@
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.card-container {
+  display: flex;
+  flex-direction: column;
 }
+
+.card {
+  height: 100vh; 
+  width: 100vw;
+  display: flex;
+  
+  align-items: center;
+  position: sticky;
+  top: 0; 
+ 
+ 
+}
+.contactus
+{
+  background-color: #EE4EAB;
+  margin: auto;
+  width: 1356.83px;
+  height: 315.93px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 40px;
+}
+.contact-text-one
+{
+    width: 70%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.second-text
+{
+    width: 66%;
+    margin-top: 20px;
+    font-size:18px;
+}
+.third-text
+{
+  font-size: 18px;
+}
+.head-container
+{
+  margin-left: 30px;
+}
+
+.text-container
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.sub-container
+{
+  width: 40%;
+}
+.second-text
+{
+  width:60%;
+  text-align: justify;
+}
+
+.image-contact
+{
+  border: 1px solid white;
+  border-radius:30px;
+  margin-right:30px;
+}
+
+.footer-container
+{
+ 
+    display: flex;
+    justify-content: space-between;
+  
+}
+.footer-grid
+{
+  
+    width: 48%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+.footer-grid-one
+{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+ 
+}
+.footer-section-one,.footer-section-two,.footer-section-three,.footer-section-four
+{
+  width: 30%;
+}
+.footer-grid-two
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+   }
+
+   .footer-header
+   {
+     font-size: 24px;
+     font-weight:600;
+   }
+   .footer-subtext
+   {
+    font-size: 16px;
+    font-weight:400;
+   }
