@@ -2,4 +2,10 @@
 {
     width: 1356.83px;
     margin: auto;
+    overflow-x: hidden;
 }
+
+.card-img{
+    width: 100% !important;
+}
+

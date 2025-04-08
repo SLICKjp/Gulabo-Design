@@ -1,0 +1,34 @@
+.service{
+    font-size: 36px;
+    font-weight: 800;
+    width: 25%;
+    margin: 20px;
+    height: 100px;
+    color: white;
+    
+}
+
+.services-container{
+    display: flex;
+    overflow: hidden;
+}
+
+.services-slider{
+    display: flex;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* flex-wrap: nowrap; */
+    white-space: nowrap;
+    background-color: #ee4eab;
+    animation: slider 50s  linear infinite ;
+    border: 4px solid #ee4eab;
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

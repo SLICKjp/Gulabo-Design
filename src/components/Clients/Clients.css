@@ -1,0 +1,37 @@
+.clientSection{
+    height: 250px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.clientLogo {
+    height: 70px;
+    margin: 20px;
+}
+
+.logos-slider{
+    display: flex;
+    animation: slider 50s linear infinite ;
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    display: flex;
+    /* align-content: center; */
+}
+
+.clientHeader{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
