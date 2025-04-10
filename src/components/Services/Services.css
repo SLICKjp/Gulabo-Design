@@ -11,6 +11,7 @@
 .services-container{
     display: flex;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .services-slider{

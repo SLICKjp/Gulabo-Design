@@ -6,8 +6,9 @@
     
     border-radius: 25px;
     overflow: hidden;
-
+    margin-top: 20px;
     /* clip-path: path("M 0 0 H 100 A 50 50 0 0 1 200 0 H 300 V 200 H 0 Z"); */
+    
 }
 
 .hero-parent{
@@ -171,6 +172,7 @@ video{
     height: 70px;
     margin-right: 20px;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 

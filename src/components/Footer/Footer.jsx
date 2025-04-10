@@ -1,10 +1,18 @@
 import React from "react";
-import gulabologo from "../assets/footer/gulabo_logo.png";
+import "./footer.css";
+import gulabologo from "../../assets/footer/gulabo_logo.png";
+import linkedin from "../../assets/footer/linkedin.png";
+import instagram from "../../assets/footer/instagram.png";
+
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-img-container">
         <img src={gulabologo} alt="" />
+        <div className="footer-social-icons">
+          <img src={instagram} alt="" />
+          <img className="footer-social-icon-two" src={linkedin} alt="" />
+        </div>
       </div>
 
       <div className="footer-grid">

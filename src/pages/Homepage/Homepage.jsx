@@ -1,18 +1,20 @@
 import React from "react";
-import Card from "../../components/Card";
+import Card from "../../components/Card/Card";
 import ContactUs from "../../components/ContactUs";
-import Footer from "../../components/Footer";
-import "./Homepage.css";
+import Footer from "../../components/Footer/Footer";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Clients from "../../components/Clients/Clients";
 import Services from "../../components/Services/Services";
+import Quote from "../../components/Quote/Quote";
+import "./Homepage.css";
 
 const Homepage = () => {
 	return (
 		<>
 			<div className="home-container">
-				<HeroSection />
+			<HeroSection />
 			</div>
+			<Quote/>
 			<Services />
 			<Card />
 			<Clients />

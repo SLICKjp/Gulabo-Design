@@ -1,20 +1,12 @@
-.card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@font-face
+{
+  font-family: 'Coolvetica';
+  src: url('./fonts/Coolvetica Rg.otf');
+  font-weight:400;
+  font-style:normal;
 }
 
-.card {
-  height: 100vh; 
-  width: 1356.83px;
-  display: flex;
-  
-  align-items: center;
-  position: sticky;
-  top: 0; 
- 
- 
-}
+
 
 .contactus
 {
@@ -28,9 +20,13 @@
   align-items: center;
   border-radius: 40px;
 }
+.sub-container
+{
+  margin-top: 7px;
+}
 .contact-text-one
 {
-    width: 70%;
+    width:68%;
     font-weight: bold;
     font-size: 20px;
 }
@@ -39,6 +35,7 @@
     width: 66%;
     margin-top: 20px;
     font-size:18px;
+    height: 73px;
 }
 .third-text
 {
@@ -48,7 +45,20 @@
 {
   margin-left: 30px;
 }
-
+.contact-big-text-one
+{
+    font-family: 'Coolvetica';
+    font-size: 96px;
+    height: 0px;
+    margin-left: 30px;
+}
+.contact-big-text-two
+{
+  font-size: 96px;
+  height: 110px;
+  margin-left: 30px;
+  font-family: 'Coolvetica';
+}
 .text-container
 {
   display: flex;
@@ -57,10 +67,11 @@
 .sub-container
 {
   width: 40%;
+  font-family: 'Montserrat', sans-serif;
 }
 .second-text
 {
-  width:60%;
+  width:65%;
   text-align: justify;
 }
 
@@ -71,54 +82,3 @@
   margin-right:30px;
 }
 
-.footer-container
-{
- 
-    display: flex;
-    justify-content: space-between;
-  
-}
-.footer-grid
-{
-  
-    width: 48%;
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    flex-direction: column;
-    justify-content: space-evenly;
-  
-}
-.footer-grid-one
-{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
- 
-}
-.footer-section-one,.footer-section-two,.footer-section-three,.footer-section-four
-{
-  width: 30%;
-}
-.footer-grid-two
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
-   }
-
-   .footer-header
-   {
-     font-size: 24px;
-     font-weight:600;
-   }
-   .footer-subtext
-   {
-    font-size: 16px;
-    font-weight:400;
-   }

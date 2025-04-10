@@ -1,7 +1,8 @@
 import React from "react";
-import img1 from "../assets/cards/card 1.png";
-import img2 from "../assets/cards/card 2.png";
-import img3 from "../assets/cards/card 3.png";
+import img1 from "../../assets/cards/card 1.png";
+import img2 from "../../assets/cards/card 2.png";
+import img3 from "../../assets/cards/card 3.png";
+import "./card.css";
 
 const Card = () => {
 	return (
