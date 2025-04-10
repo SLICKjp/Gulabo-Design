@@ -12,9 +12,10 @@ const Homepage = () => {
 	return (
 		<>
 			<div className="home-container">
-			<HeroSection />
+				<HeroSection />
+				<Quote />
 			</div>
-			<Quote/>
+
 			<Services />
 			<Card />
 			<Clients />
