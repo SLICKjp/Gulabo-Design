@@ -16,7 +16,7 @@ const HeroSection = () => {
 				<div className="navbar">
 					<li className="navbar-item navbar-trigger">
 						<div className="navbar-btn" onClick={navbarTrigger}>
-							<span>HOME</span>
+							<span>{navBarFlag ? "HOME" : "EXPLORE"}</span>
 						</div>
 					</li>
 
