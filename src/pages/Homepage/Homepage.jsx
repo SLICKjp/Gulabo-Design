@@ -6,7 +6,7 @@ import HeroSection from "../../components/HeroSection/HeroSection";
 import Clients from "../../components/Clients/Clients";
 import Services from "../../components/Services/Services";
 import Quote from "../../components/Quote/Quote";
-import "./Homepage.css";
+import "./homepage.css";
 
 const Homepage = () => {
 	return (
