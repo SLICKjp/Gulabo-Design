@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
 import gulabologo from "../../assets/footer/gulabo_logo.png";
-import linkedin from "../../assets/footer/linkedin.png";
-import instagram from "../../assets/footer/instagram.png";
+import linkedin from "../../assets/footer/linkedin.jpg";
+import instagram from "../../assets/footer/instagram.jpg";
 
 const Footer = () => {
   return (

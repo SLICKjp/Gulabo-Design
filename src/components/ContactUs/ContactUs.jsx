@@ -1,6 +1,6 @@
 import React from "react";
-import contactimg from "../assets/contactus/contact.png";
-
+import contactimg from "../../assets/contactus/contact.png";
+import "./contactus.css";
 
 const ContactUs = () => {
   return (

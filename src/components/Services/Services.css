@@ -2,16 +2,18 @@
     font-size: 36px;
     font-weight: 800;
     width: 25%;
-    margin: 20px;
-    height: 100px;
     color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+   
     
 }
 
 .services-container{
     display: flex;
-    overflow: hidden;
+   
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .services-slider{

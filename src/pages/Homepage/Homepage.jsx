@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../components/Card/Card";
-import ContactUs from "../../components/ContactUs";
+import ContactUs from "../../components/ContactUs/ContactUs";
 import Footer from "../../components/Footer/Footer";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Clients from "../../components/Clients/Clients";

@@ -16,15 +16,16 @@
     
         position: absolute;
         /* top: 325px; */
-        bottom: 20px;
-        left: 104px;
+        bottom: 30px;
+        left: 120px;
         /* padding: 12px; */
         /* margin: 24px; */
     }
 
 .footer-social-icon-two
 {
-    padding-left: 16px;
+    padding-left: 26px;
+    padding-bottom: 2px;
 }
 .footer-grid
 {
