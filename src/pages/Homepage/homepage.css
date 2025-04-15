@@ -1,8 +1,13 @@
 .home-container
 {
-    width: 1356.83px;
+    width: 93%;
     margin: auto;
     overflow-x: hidden;
+}
+
+.home-subcontainer{
+    overflow-x: hidden;
+    width: 100%;
 }
 
 

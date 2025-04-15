@@ -15,10 +15,13 @@ const Homepage = () => {
 				<HeroSection />
 				<Quote />
 			</div>
-
-			<Services />
+			<div className="home-subcontainer">
+				<Services />
+			</div>
 			<Card />
-			<Clients />
+			<div className="home-subcontainer">
+				<Clients />
+			</div>
 			<div className="home-container">
 				<ContactUs />
 				<Footer />

@@ -9,13 +9,13 @@ const Card = () => {
 		<div>
 			<div className="card-container">
 				<div className="card">
-					<img className="card-img-one" src={img1} alt="" />
+					<img className="card-img card-img-one" src={img1} alt="" />
 				</div>
 				<div className="card">
-					<img className="card-img-two" src={img2} alt="" />
+					<img className="card-img card-img-two" src={img2} alt="" />
 				</div>
 				<div className="card">
-					<img className="card-img-three" src={img3} alt="" />
+					<img className="card-img card-img-three" src={img3} alt="" />
 				</div>
 			</div>
 		</div>

@@ -37,7 +37,7 @@ const HeroSection = () => {
 					<div className="svg-cutout">
 						<svg
 							width="55"
-							height="53"
+							height="33"
 							viewBox="0 0 107 106"
 							xmlns="http://www.w3.org/2000/svg"
 						>
@@ -52,7 +52,7 @@ const HeroSection = () => {
 					<div className="svg-cutout-2">
 						<svg
 							width="55"
-							height="53"
+							height="33"
 							viewBox="0 0 107 106"
 							xmlns="http://www.w3.org/2000/svg"
 						>
@@ -68,7 +68,7 @@ const HeroSection = () => {
 				</div>
 				<div className="about-us-sphere">
 					<img className="rotatingText" src={aboutMe} />
-					<img className="arrow" src={arrow} />
+					<img className="arrow" src={arrow}></img>
 				</div>
 			</div>
 		</>
