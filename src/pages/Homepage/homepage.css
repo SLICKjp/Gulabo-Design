@@ -2,7 +2,7 @@
 {
     width: 93%;
     margin: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .home-subcontainer{
