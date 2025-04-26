@@ -1,6 +1,6 @@
 .service{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 600;
     width: 25%;
     color: white;
     margin-left: 10px;
@@ -14,6 +14,7 @@
    
     font-family: 'Montserrat', sans-serif;
     
+    
 }
 
 .services-slider{
@@ -22,9 +23,10 @@
     /* overflow: hidden; */
     /* flex-wrap: nowrap; */
     white-space: nowrap;
-    background-color: #ee4eab;
+    background-color: #5B88B2;
     animation: slider 50s  linear infinite ;
-    border: 4px solid #ee4eab;
+   
+    
 }
 
 @keyframes slider {

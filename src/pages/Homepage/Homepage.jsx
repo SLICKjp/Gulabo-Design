@@ -13,10 +13,11 @@ const Homepage = () => {
 		<>
 			<div className="home-container">
 				<HeroSection />
-				<Quote />
 			</div>
+			<Quote />
+			<Services />
 			<div className="home-subcontainer">
-				<Services />
+				
 			</div>
 			<Card />
 			<div className="home-subcontainer">

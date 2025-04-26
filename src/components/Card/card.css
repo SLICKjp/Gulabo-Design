@@ -11,6 +11,7 @@
 
 .card {
   position: sticky;
+  
   width: 93%;
   top: 0;
   height: 100vh;
@@ -38,12 +39,4 @@
 
 .card-img {
  width: 100%;
-}
-.card-img-two
-{
-  margin-bottom: 102px;
-}
-.card-img-three
-{
-  padding-bottom:99px;
 }

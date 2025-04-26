@@ -11,12 +11,17 @@
 }
 .footer-img-container{
     position: relative;
+    
+}
+.footer-image
+{
+  
 }
 .footer-social-icons{
     
         position: absolute;
         /* top: 325px; */
-        bottom: 30px;
+        bottom: -50px;
         left: 120px;
         /* padding: 12px; */
         /* margin: 24px; */

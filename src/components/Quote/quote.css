@@ -1,16 +1,25 @@
 .quote-container{
     font-family: 'Montserrat', sans-serif;
    
+    
+    
    
     /* margin-left: 74px; */
     
 }
-.quote-span{
-    font-style: italic;
-}
+
 .quote-text
 {
-    font-size: 45px;
-    font-weight:800;
-    width:75%;
+    font-size: 40px;
+    font-weight:400;
+    text-align: center;
+    height: 20px;
+    
+}
+.quote-author
+{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+   
 }

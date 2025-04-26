@@ -8,12 +8,16 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-img-container">
-        <img src={gulabologo} alt="" />
+        <img className="footer-image" src={gulabologo} alt="" />
+
+        
         <div className="footer-social-icons">
           <img src={instagram} alt="" />
           <img className="footer-social-icon-two" src={linkedin} alt="" />
         </div>
+        
       </div>
+     
 
       <div className="footer-grid">
         <div className="footer-grid-one">
