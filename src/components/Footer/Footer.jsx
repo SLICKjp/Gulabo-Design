@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
 import gulabologo from "../../assets/footer/gulabo_logo.png";
-import linkedin from "../../assets/footer/linkedin.jpg";
-import instagram from "../../assets/footer/instagram.jpg";
+import linkedin from "../../assets/footer/linkedin.png";
+import instagram from "../../assets/footer/instagram.png";
 
 const Footer = () => {
 	return (
@@ -43,7 +43,8 @@ const Footer = () => {
 					<div className="footer-section-fourth">
 						<h3 className="footer-header">ADDRESS</h3>
 						<p className="footer-subtext">346, Sector 21A, Faridabad,</p>
-						<p className="footer-subtext">Haryana 121002</p>
+						<p className="footer-subtext">Haryana 121002(Studio)</p>
+            <p className="footer-subtext">24 A Sector - 10H, DLF Faridabad, Haryana 121006 (Registered Address)</p>
 					</div>
 				</div>
 			</div>

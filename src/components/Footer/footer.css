@@ -10,6 +10,7 @@
     overflow: hidden;
     width: 100%;
     margin-top: 1.5rem;
+    height: 370px;
  
 }
 .footer-img-container{
@@ -18,15 +19,12 @@
     display: flex;
     justify-content: flex-start;
 }
-.footer-image
-{
-  
-}
+
 .footer-social-icons{
     
         position: absolute;
         /* top: 325px; */
-        bottom: -50px;
+        bottom:-50px;
         left: 120px;
         /* padding: 12px; */
         /* margin: 24px; */
@@ -35,7 +33,7 @@
 .footer-social-icon-two
 {
     padding-left: 26px;
-    padding-bottom: 2px;
+    padding-bottom:7px;
 }
 .footer-grid
 {
