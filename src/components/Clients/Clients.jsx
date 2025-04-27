@@ -33,7 +33,7 @@ import amourBistro from "../../assets/clients/amourBistro.png";
 import middleby from "../../assets/clients/middleby.png";
 import itc from "../../assets/clients/itc.png";
 import fourPoint from "../../assets/clients/fourPoint.png";
-import rsp from "../../assets/clients/itc.png";
+import rsp from "../../assets/clients/rsp.png";
 import pallMall from "../../assets/clients/pallMall.png";
 import tossin from "../../assets/clients/tossin.png";
 
