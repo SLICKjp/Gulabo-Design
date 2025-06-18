@@ -1,0 +1,85 @@
+.contact-flex-container {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-form-container {
+  margin-left: 4.875rem;
+  margin-top: 0.1rem;
+}
+
+.contact-form-title {
+  font-size: 64px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form-map {
+  width: 474px;
+  height: 465px;
+  border-radius: 5px;
+}
+.input-box-firstname,
+.input-box-lastname {
+  width: 253px;
+  height: 50px;
+  padding-left: 15px;
+  border: 2px solid #A9A9A9;
+  border-radius: 8px;
+}
+.input-box-lastname {
+  margin-left: 10px;
+}
+.input-box-email {
+  width: 537px;
+  height: 50px;
+  padding-left: 15px;
+  border: 2px solid #A9A9A9;
+  border-radius: 8px;
+  margin: 20px 0px 20px 0px;
+ 
+}
+.input-box-phoneno {
+  width: 537px;
+  height: 50px;
+  padding-left: 15px;
+  border: 2px solid #A9A9A9;
+  border-radius: 8px;
+  margin: 0px 0px 20px 0px;
+ 
+}
+.input-box-message {
+  width: 532px;
+  height: 165px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: 2px solid #A9A9A9;
+  border-radius: 8px;
+  margin: 0px 0px 10px 0px;
+}
+.input-box-message::placeholder
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: -1%;
+  color: #525050;
+  
+}
+.contact-btn-container {
+  text-align: center;
+}
+.contact-btn {
+  background-color: #7facd6;
+  color: white;
+  padding: 0.75rem 2.5rem;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  letter-spacing: -1%;
+  font-weight: 400;
+  
+}

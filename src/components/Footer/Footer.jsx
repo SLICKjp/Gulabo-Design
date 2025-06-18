@@ -11,7 +11,9 @@ const Footer = () => {
 				<div>
 					<img className="footer-image" src={gulabologo} alt="" />
 					<div className="footer-social-icons">
+						<a href="https://www.instagram.com/gulabo.design?igsh=MWxvbWdsYWU1azZwaQ==" target="_blank" rel="noopener noreferrer">
 						<img src={instagram} alt="" />
+						</a>
 						<img className="footer-social-icon-two" src={linkedin} alt="" />
 					</div>
 				</div>

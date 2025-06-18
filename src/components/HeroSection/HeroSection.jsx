@@ -1,32 +1,15 @@
-import React, { useEffect, useState } from "react";
+
 import "./HeroSection.css";
 import video from "../../assets/HeroSection/tailor.mp4";
 import aboutMe from "../../assets/HeroSection/aboutMe.png";
 import arrow from "../../assets/HeroSection/redirectArrow.png";
+import Navbar from "../Navbar/Navbar";
 
 const HeroSection = () => {
-	const [navBarFlag, toggleFlag] = useState(false);
-	useEffect(() => {});
-	const navbarTrigger = () => {
-		toggleFlag((navBarFlag) => !navBarFlag);
-	};
 	return (
 		<>
 			<div className="hero-parent">
-				<div className="navbar">
-					<li className="navbar-item navbar-trigger">
-						<div className="navbar-btn" onClick={navbarTrigger}>
-							<span>{navBarFlag ? "HOME" : "EXPLORE"}</span>
-						</div>
-					</li>
-
-					<div className={`navbar-hidden ${navBarFlag ? "navbar-open" : ""}`}>
-						<li className="navbar-item">ABOUT US</li>
-						<li className="navbar-item">EXPERIENCE DESIGN</li>
-						<li className="navbar-item">UNIFORM DESIGN</li>
-						<li className="navbar-item">BRANDING</li>
-					</div>
-				</div>
+			 <Navbar/>
 				<div className="hero-container">
 					<video autoPlay muted loop playsInline type="video/mp4">
 						<source src={video}></source>

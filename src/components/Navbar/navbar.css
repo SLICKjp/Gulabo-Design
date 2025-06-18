@@ -1,0 +1,97 @@
+.navbar-item{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left:60px;
+    text-decoration: none !important;
+    color: black !important;
+   
+}
+
+.navbar{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    font-size: 17px;
+    position: absolute;
+    left: -50px;
+    z-index: 100;
+    top: 20px;
+    font-weight: 400;
+    height: 75px;
+    margin-right: 20px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.navbar-btn{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    color:black;
+    cursor: pointer;
+    position: absolute;
+    left: 80px;
+    /* top: 10px; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-hidden{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    transition: left 1s ease;
+    position: absolute;
+    left: -1500px;
+    animation: visiblity 1s ease;
+} 
+
+
+@keyframes visibilty {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.navbar-open{
+    left: 175px;
+    opacity: 1;
+}
+
+
+
+.navbar-trigger{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@media (max-width:1600px) {
+    .navbar-item
+    {
+       
+    }
+}
