@@ -12,7 +12,7 @@ const AppRoutes = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<Aboutus />} />
-          <Route path="/form" element={<ContactForm/>} />
+          <Route path="/contact-form" element={<ContactForm/>} />
         </Routes>
       
     </>

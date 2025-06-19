@@ -20,9 +20,6 @@
     margin-left: 30px;
     letter-spacing: 5%;
 }
-
-
-
 .image-contact
 {
   border: 1px solid white;
@@ -39,3 +36,7 @@ h2{
   font-weight: 700 !important;
 }
 
+.interactive-image
+{
+  cursor: pointer;
+}

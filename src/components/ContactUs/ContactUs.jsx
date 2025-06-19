@@ -7,7 +7,7 @@ const ContactUs = () => {
   const navigate = useNavigate();
 
   const handleImageClick = () => {
-    navigate('/form');
+    navigate('/contact-form');
   }
 
   return (
@@ -19,7 +19,7 @@ const ContactUs = () => {
       
           <div className="img-container">
             <div className="image-contact">
-              <img src={contactimg} alt="" onClick={handleImageClick} />
+              <img src={contactimg} alt="" onClick={handleImageClick} className="interactive-image"  />
             </div>
           </div>
         
