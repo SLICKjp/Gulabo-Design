@@ -1,7 +1,9 @@
+import Footer from "../../components/Footer/Footer";
 import "./form.css";
 
 const Form = () => {
   return (
+    <>
     <div className="contact-main-container">
       <h1 className="contact-form-title">Let's Connect</h1>
 
@@ -62,6 +64,8 @@ const Form = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

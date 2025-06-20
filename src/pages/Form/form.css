@@ -1,3 +1,7 @@
+.contact-main-container
+{
+  margin-bottom: 12rem;
+}
 .contact-flex-container {
   display: flex;
   justify-content: center;

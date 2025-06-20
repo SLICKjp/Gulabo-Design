@@ -39,4 +39,9 @@ h2{
 .interactive-image
 {
   cursor: pointer;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.interactive-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px #5B88B2;
 }
