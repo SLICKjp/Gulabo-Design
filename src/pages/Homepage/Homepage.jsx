@@ -1,32 +1,27 @@
-import React from "react";
-import Card from "../../components/Card/Card";
-import ContactUs from "../../components/ContactUs/ContactUs";
-import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import Clients from "../../components/Clients/Clients";
 import Services from "../../components/Services/Services";
 import Quote from "../../components/Quote/Quote";
-import "./homepage.css";
+import Pillars from "../../components/Pillars/Pillars";
+import Work from "../../components/Work/Work";
+import Clients from "../../components/Clients/Clients";
+import ContactUs from "../../components/ContactUs/ContactUs";
+import Footer from "../../components/Footer/Footer";
 
 const Homepage = () => {
 	return (
 		<>
-			<div className="home-container">
+			<Navbar />
+			<main>
 				<HeroSection />
-			</div>
-			<Quote />
-			<Services />
-			<div className="home-subcontainer">
-				
-			</div>
-			<Card />
-			<div className="home-subcontainer">
+				<Services />
+				<Quote />
+				<Pillars />
+				<Work />
 				<Clients />
-			</div>
-			<div className="home-container">
 				<ContactUs />
-				<Footer />
-			</div>
+			</main>
+			<Footer />
 		</>
 	);
 };

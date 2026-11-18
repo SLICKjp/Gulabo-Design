@@ -1,71 +1,30 @@
-import React from "react";
 import "./Services.css";
 
+const SERVICES = [
+	"Logo Design",
+	"Branding",
+	"Interior Styling",
+	"Art Installation",
+	"Menu Design",
+	"Spatial Design",
+	"Concept Decor",
+	"Uniform Design",
+	"Product Design",
+];
+
+// The list is rendered twice so the -50% loop is seamless
 const Services = () => {
 	return (
-		<>
-			<div className="services-container">
-				<div className="services-slider">
-					<div className="service">
-						<p>LOGO DESIGN</p>
-					</div>
-					<div className="service">
-						<p>BRANDING</p>
-					</div>
-					<div className="service">
-						<p>INTERIOR STYLING</p>
-					</div>
-					<div className="service">
-						<p>ART INSTALLATION</p>
-					</div>
-					<div className="service">
-						<p>MENU DESIGN</p>
-					</div>
-					<div className="service">
-						<p>SPATIAL DESIGN</p>
-					</div>
-					<div className="service">
-						<p>CONCEPT DECOR</p>
-					</div>
-					<div className="service">
-						<p>UNIFORM DESIGN</p>
-					</div>
-					<div className="service">
-						<p>PRODUCT DESIGN</p>
-					</div>
-				</div>
-
-				<div className="services-slider">
-					<div className="service">
-						<p>LOGO DESIGN</p>
-					</div>
-					<div className="service">
-						<p>BRANDING</p>
-					</div>
-					<div className="service">
-						<p>INTERIOR STYLING</p>
-					</div>
-					<div className="service">
-						<p>ART INSTALLATION</p>
-					</div>
-					<div className="service">
-						<p>MENU DESIGN</p>
-					</div>
-					<div className="service">
-						<p>SPATIAL DESIGN</p>
-					</div>
-					<div className="service">
-						<p>CONCEPT DECOR</p>
-					</div>
-					<div className="service">
-						<p>UNIFORM DESIGN</p>
-					</div>
-					<div className="service">
-						<p>PRODUCT DESIGN</p>
-					</div>
-				</div>
+		<div className="marquee" aria-hidden="true">
+			<div className="marquee-track display">
+				{[...SERVICES, ...SERVICES].map((service, i) => (
+					<span className="marquee-item" key={i}>
+						{service}
+						<span className="marquee-dot" />
+					</span>
+				))}
 			</div>
-		</>
+		</div>
 	);
 };
 

@@ -1,13 +1,17 @@
-import React from 'react'
 import "./quote.css";
 
 const Quote = () => {
-  return (
-    <div className='quote-container'>
-       <h3 className='quote-text'>‘If you can design one thing, You can design anything’</h3>
-       <h3 className='quote-author'>-Massimo Vignelli</h3>
-    </div>
-  )
-}
+	return (
+		<section className="container quote">
+			<div className="display quote-mark" aria-hidden="true">
+				“
+			</div>
+			<blockquote>
+				<p className="display quote-text">If you can design one thing, you can design anything.</p>
+				<footer className="quote-author">Massimo Vignelli</footer>
+			</blockquote>
+		</section>
+	);
+};
 
-export default Quote
+export default Quote;
